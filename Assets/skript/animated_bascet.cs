@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class animate_manu : MonoBehaviour
+public class animated_bascet : MonoBehaviour
 {
-
-    [SerializeField] float speed_move;
-    public void manuclick()
+    //[SerializeField] GameObject gameObject;
+    public void bascetclick()
     {
         iTween.MoveTo(this.gameObject, new Vector3(272.81f, 1488.42f, -42.68f), 5f);
     }
     public void backClick()
     {
-        iTween.MoveTo(this.gameObject, new Vector3(-447.19f, 1488.42f, -42.68f), 5f);
+        iTween.MoveTo(this.gameObject, new Vector3(992.81f, 1488.42f, -42.68f), 5f);
     }
 }
+
